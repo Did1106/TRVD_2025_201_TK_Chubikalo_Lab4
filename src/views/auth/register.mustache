@@ -1,0 +1,30 @@
+<h1>Реєстрація</h1>
+
+{{#error}}
+<p class="error">{{error}}</p>
+{{/error}}
+
+<form action="/auth/register" method="POST" enctype="multipart/form-data">
+  <label>Email</label>
+  <input type="email" name="email" required>
+
+  <label>Пароль</label>
+  <input type="password" name="password" required>
+
+  <label>Ім'я</label>
+  <input type="text" name="name" required>
+
+  <label>Вік</label>
+  <input type="number" name="age" required>
+
+  <label>Місто</label>
+  <input type="text" name="city" required>
+
+  <label>Біо</label>
+  <textarea name="bio"></textarea>
+
+  <label>Фото</label>
+  <input type="file" name="photo">
+
+  <button type="submit">Зареєструватися</button>
+</form>

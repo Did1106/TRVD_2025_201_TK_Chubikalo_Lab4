@@ -1,0 +1,15 @@
+<h1>Вхід до системи</h1>
+
+{{#error}}
+<p class="error">{{error}}</p>
+{{/error}}
+
+<form action="/auth/login" method="POST" class="auth-form">
+  <label>Email</label>
+  <input type="email" name="email" placeholder="your@email.com" required>
+
+  <label>Пароль</label>
+  <input type="password" name="password" required>
+
+  <button type="submit" class="btn btn-create">Увійти 🔐</button>
+</form>
