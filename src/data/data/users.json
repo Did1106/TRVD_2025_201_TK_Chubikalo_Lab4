@@ -70,5 +70,11 @@
     "city": "Чернігів",
     "bio": "Фотографія, нові враження, пошук пригод.",
     "photo": "img/yuliya.jpg"
+  },
+  {
+    "id": "1765403927525",
+    "name": "Test User",
+    "email": "test@example.com",
+    "password": "$2b$10$CrtOofp7bmlAolYetZAn8u0aH6QK8cb/u7DHbIlj23xK0TXNosZ9W"
   }
 ]
