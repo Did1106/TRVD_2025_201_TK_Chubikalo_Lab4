@@ -76,5 +76,11 @@
     "name": "Test User",
     "email": "test@example.com",
     "password": "$2b$10$CrtOofp7bmlAolYetZAn8u0aH6QK8cb/u7DHbIlj23xK0TXNosZ9W"
+  },
+  {
+    "id": "1765405292209",
+    "name": "s",
+    "email": "scaacco@gmail.com",
+    "password": "$2b$10$3UOFzxuUjqJ5RY5fAUgcju1d/1IXg.dQxo58dbjKnqGapPXP/ZfAi"
   }
 ]
